@@ -30,6 +30,7 @@ const NavigationItem = ({ menuItem }: Props) => {
 
   const renderDropdownMenu = (item: NavItemType) => {
     const isHover = menuCurrentHovers.includes(item.id);
+    
     return (
       <Popover
         as='li'
