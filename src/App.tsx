@@ -3,7 +3,6 @@ import 'devextreme/dist/css/dx.light.css';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import store from 'src/redux/store';
-import './App.css';
 import Router from './routes/routes';
 
 function App() {

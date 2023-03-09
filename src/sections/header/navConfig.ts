@@ -123,7 +123,7 @@ const templatesChildrenMenus: NavItemType[] = [
   { id: ncNanoId(), href: '/account', name: 'Account Page' },
 ];
 
-export const NAVIGATION_DEMO: NavItemType[] = [
+export const navConfigs: NavItemType[] = [
   {
     id: ncNanoId(),
     href: '/',

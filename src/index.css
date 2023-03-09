@@ -23,3 +23,9 @@
     focus:border-indigo-500 focus:ring-indigo-500 dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200 sm:text-sm;
   }
 }
+
+@layer components {
+  .nc-hero-field-focused {
+    box-shadow: rgb(17 17 26 / 5%) 0px 4px 16px, rgb(17 17 26 / 5%) 0px 8px 32px;
+  }
+}
